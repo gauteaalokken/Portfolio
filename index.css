@@ -1,4 +1,4 @@
-body {
+ body {
   background-color: #d9d9d9;
   margin: 0;
   padding: 0;
@@ -15,16 +15,46 @@ body {
 .photogallery {
      display: flex;
      flex-wrap: wrap;
-     padding: 5px;
-     justify-content: space-evenly;
+     padding: 0 5px;
+   }
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+     /* justify-content: space-evenly;
      flex-direction: column;
      align-items: center;
-     justify-content: center;
-}
+     justify-content: center; */
+/* }
 .photo {
-     padding: 0 10px 10px;
+     padding: 0 10px 10px; */
 
-}
+/* }
 img:hover {
   opacity: .5;
   transition: .6s;
@@ -37,6 +67,6 @@ img{
 }
 
 .row{
-flex-direction: row;
+flex-direction: row; */
 
 }
