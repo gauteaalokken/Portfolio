@@ -2,9 +2,9 @@
  *::before
  *::after,
  {
-    margin: 0;
+  margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:border-box;
   }
 
   html{
@@ -12,11 +12,11 @@
     font-size: 10px;
   }
 
-  body
-   {widt:100%;
+  body{
+     widt:100%;
      height: 100vh;
      background-color: #eee;
-     display: flex;
+     display:flex;
 }
 
 .container{
@@ -28,7 +28,7 @@
 
 .image-gallery{
   display: grid;
-  grid-template-columns: lfr lfr lfr lfr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: auto;
   grid-gap: 1.5rem;
   /* grid-template-areas: ; */
@@ -55,7 +55,20 @@
   z-index: 100;
   padding: 1rem 3rem;
   border:2px solid rgba(255, 255, 255, .6);
-  
+  border-radius: .4rem;
+  /* opacity: 0; */
+  transition: : opacity .5s;
+
+.image-gallery a::before {
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 
 
 
