@@ -93,22 +93,22 @@ h1{
 
 .img-1{
   grid-area:img-1;
-  background-image: url("images/Port-1.jpg");
+  background-image: url("images\Port-1.jpg");
 }
 
 .img-2{
   grid-area:img-2;
-  background-image: url("images/Port-2.jpg");
+  background-image: url("images\Port-2.jpg");
 }
 
 .img-3{
   grid-area:img-3;
-  background-image: url("images/Port-3.jpg");
+  background-image: url("images\Port-3.jpg");
 }
 
 .img-4{
   grid-area:img-4;
-  background-image: url("images/Port-4.jpg");
+  background-image: url("images\Port-4.jpg");
 }
 
 .img-5{
