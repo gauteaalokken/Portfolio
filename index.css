@@ -51,6 +51,12 @@
 .image-gallery a i{
   /* color: rgba(255,255,255, .6); */
   font-size: 3rem;
+  position: relative;
+  z-index: 100;
+  padding: 1rem 3rem;
+  border:2px solid rgba(255, 255, 255, .6);
+  
+
 
 
 
