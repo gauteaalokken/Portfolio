@@ -20,10 +20,10 @@
 }
 
 h1{
-  font-family: 'Cinzel', serif;
+  font-family: 'Cinzel';
   font-size: 40px;
   position: absolute;
-  left: 10rem;
+  left: 10.5rem;
   top:10rem ;
 
   }
@@ -31,7 +31,7 @@ h1{
 
 .social{
   position: absolute;
-  right: 10rem;
+  right: 10.5rem;
   /* top: 10rem ; */
   font-size:40px;
 
@@ -48,7 +48,7 @@ text-decoration: none; }
   width: 100%;
   max-wid : 120rem;
   margin: auto;
-  padding: 20rem 10rem;
+  padding: 30rem 10rem;
 }
 
 .image-gallery{
