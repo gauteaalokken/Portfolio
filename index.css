@@ -20,16 +20,35 @@
 }
 
 h1{
-  font-family: 'Roboto' , sans-serif;
-  font-size: 20000 px;
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  position: absolute;
+  left: 10rem;
+  top:10rem ;
+
+  }
+
+
+.social{
+  position: absolute;
+  right: 10rem;
+  /* top: 10rem ; */
+  font-size:40px;
 
 }
+
+a { color: inherit;
+text-decoration: none; }
+
+
+
+
 
 .container{
   width: 100%;
   max-wid : 120rem;
   margin: auto;
-  padding: 0 1.5rem;
+  padding: 20rem 10rem;
 }
 
 .image-gallery{
@@ -37,12 +56,13 @@ h1{
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   grid-template-rows: auto;
   grid-gap: 1.5rem;
-  grid-template-areas: 'img-3 img-3 img-2 img-5'
-                       'img-7 img-6 img-1 img-1'
-                       'img-10 img-10 img-11 img-11'
-                       'img-4 img-13 img-14 img-15'
-                       'img-16 img-16 img-16 img-16'
-                       'img-16 img-16 img-16 img-16'
+  grid-template-areas:
+                       /* 'img-11 img-11 img-11 img-11'
+                       'img-11 img-11 img-11 img-11' */
+                       'img-3 img-3 img-4 img-13'
+                       'img-7 img-6 img-14 img-15'
+                       'img-10 img-11 img-16 img-17'
+
                        ;
 
 
@@ -91,15 +111,15 @@ h1{
   opacity:1;
 }
 
-.img-1{
+/* .img-1{
   grid-area:img-1;
   background-image: url("images/Port-1.jpg");
-}
+} */
 
-.img-2{
+/* .img-2{
   grid-area:img-2;
   background-image: url("images/Port-2.jpg");
-}
+} */
 
 .img-3{
   grid-area:img-3;
@@ -111,10 +131,10 @@ h1{
   background-image: url("images/Port-4.jpg");
 }
 
-.img-5{
+/* .img-5{
   grid-area:img-5;
   background-image: url("images/Port-5.jpg");
-}
+} */
 
 .img-6{
   grid-area:img-6;
@@ -140,10 +160,12 @@ h1{
   background-image: url("images/Port-10.jpg");
 }
 
+
 .img-11{
   grid-area:img-11;
   background-image: url("images/Port-11.jpg");
 }
+
 
 /* .img-12{
   grid-area:img-12;
@@ -168,6 +190,10 @@ h1{
 
 .img-16{
   grid-area:img-16;
-  min-height: 51.5rem;
+
   background-image: url("images/Port-16.jpg");
 }
+.img-17{
+  grid-area:img-17;
+
+  background-image: url("images/Port-17.jpg");
