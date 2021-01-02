@@ -31,10 +31,10 @@ h1{
 
 .social{
   position: absolute;
-  right: 10.5rem;
-  top:20rem;
+  right: 11rem;
+  top:23rem;
   /* top: 10rem ; */
-  font-size:40px;
+  font-size:30px;
 
 }
 
@@ -60,9 +60,9 @@ text-decoration: none; }
   grid-template-areas:
                        /* 'img-11 img-11 img-11 img-11'
                        'img-11 img-11 img-11 img-11' */
-                       'img-3 img-3 img-4 img-13'
-                       'img-7 img-6 img-14 img-15'
-                       'img-10 img-11 img-16 img-17'
+                       'img-4 img-13 img-3 img-3'
+                       'img-14 img-15 img-7 img-6'
+                       'img-10 img-10 img-11 img-17'
 
                        ;
 
@@ -189,11 +189,32 @@ text-decoration: none; }
   background-image: url("images/Port-15.jpg");
 }
 
-.img-16{
+/* .img-16{
   grid-area:img-16;
 
   background-image: url("images/Port-16.jpg");
+} */
+.img-17{
+  grid-area:img-17;
+
+  background-image: url("images/Port-17.jpg");
 }
+
+.img-23{
+  grid-area:img-14;
+  background-image: url("images/Port-14.jpg");
+}
+
+.img-15{
+  grid-area:img-15;
+  background-image: url("images/Port-15.jpg");
+}
+
+/* .img-16{
+  grid-area:img-16;
+
+  background-image: url("images/Port-16.jpg");
+} */
 .img-17{
   grid-area:img-17;
 
