@@ -60,9 +60,13 @@ text-decoration: none; }
   grid-template-areas:
                        /* 'img-11 img-11 img-11 img-11'
                        'img-11 img-11 img-11 img-11' */
+
+
                        'img-4 img-13 img-3 img-3'
                        'img-14 img-15 img-7 img-6'
-                       'img-10 img-10 img-11 img-17'
+                       'img-10 img-10 img-16 img-17'
+                       'img-20 img-20 img-22 img-24'
+                       /* 'img-10 img-10 img-16 img-17' */
 
                        ;
 
@@ -112,15 +116,7 @@ text-decoration: none; }
   opacity:1;
 }
 
-/* .img-1{
-  grid-area:img-1;
-  background-image: url("images/Port-1.jpg");
-} */
 
-/* .img-2{
-  grid-area:img-2;
-  background-image: url("images/Port-2.jpg");
-} */
 
 .img-3{
   grid-area:img-3;
@@ -132,10 +128,6 @@ text-decoration: none; }
   background-image: url("images/Port-4.jpg");
 }
 
-/* .img-5{
-  grid-area:img-5;
-  background-image: url("images/Port-5.jpg");
-} */
 
 .img-6{
   grid-area:img-6;
@@ -146,15 +138,6 @@ text-decoration: none; }
   background-image: url("images/Port-7.jpg");
 }
 
-/* .img-8{
-  grid-area:img-8;
-  background-image: url("images/Port-8.jpg");
-} */
-
-/* .img-9{
-  grid-area:img-9;
-  background-image: url("images/Port-9.jpg");
-} */
 
 .img-10{
   grid-area:img-10;
@@ -168,10 +151,6 @@ text-decoration: none; }
 }
 
 
-/* .img-12{
-  grid-area:img-12;
-  background-image: url("images/Port-12.jpg");
-} */
 
 
 .img-13{
@@ -188,19 +167,19 @@ text-decoration: none; }
   grid-area:img-15;
   background-image: url("images/Port-15.jpg");
 }
-
-/* .img-16{
+.img-16{
   grid-area:img-16;
-
   background-image: url("images/Port-16.jpg");
-} */
+}
+
+
 .img-17{
   grid-area:img-17;
 
   background-image: url("images/Port-17.jpg");
 }
 
-.img-23{
+.img-14{
   grid-area:img-14;
   background-image: url("images/Port-14.jpg");
 }
@@ -210,12 +189,134 @@ text-decoration: none; }
   background-image: url("images/Port-15.jpg");
 }
 
-/* .img-16{
-  grid-area:img-16;
+.img-20{
+  grid-area:img-20;
+  background-image: url("images/Port-20.jpg");
+}
 
-  background-image: url("images/Port-16.jpg");
-} */
-.img-17{
-  grid-area:img-17;
+.img-22{
+  grid-area:img-22;
+  background-image: url("images/Port-22.jpg");
+}
 
-  background-image: url("images/Port-17.jpg");
+.img-24{
+  grid-area:img-24;
+  background-image: url("images/Port-24.jpg");
+}
+
+
+
+.img-25{
+  grid-area:img-25;
+  background-image: url("images/Port-25.jpg");
+}
+
+.img-26{
+  grid-area:img-26;
+  background-image: url("images/Port-26.jpg");
+}
+
+.img-27{
+  grid-area:img-27;
+  background-image: url("images/Port-27.jpg");
+}
+
+
+.img-28{
+  grid-area:img-28;
+
+  background-image: url("images/Port-28.jpg");
+}
+
+.img-29{
+  grid-area:img-29;
+  background-image: url("images/Port-29.jpg");
+}
+
+.img-30{
+  grid-area:img-30;
+  background-image: url("images/Port-30.jpg");
+}
+
+.img-31{
+  grid-area:img-31;
+  background-image: url("images/Port-31.jpg");
+}
+
+.img-32{
+  grid-area:img-32;
+  background-image: url("images/Port-32.jpg");
+}
+
+
+.img-33{
+  grid-area:img-33;
+  background-image: url("images/Port-33.jpg");
+}
+
+
+
+
+.img-34{
+  grid-area:img-34;
+  background-image: url("images/Port-34.jpg");
+}
+
+.img-35{
+  grid-area:img-35;
+  background-image: url("images/Port-35.jpg");
+}
+
+.img-36{
+  grid-area:img-36;
+  background-image: url("images/Port-36.jpg");
+}
+
+
+.img-37{
+  grid-area:img-37;
+
+  background-image: url("images/Port-37.jpg");
+}
+
+.img-38{
+  grid-area:img-38;
+  background-image: url("images/Port-38.jpg");
+}
+
+.img-39{
+  grid-area:img-39;
+  background-image: url("images/Port-39.jpg");
+}
+
+.img-42{
+  grid-area:img-42;
+  background-image: url("images/Port-42.jpg");
+}
+
+.img-43{
+  grid-area:img-43;
+  background-image: url("images/Port-43.jpg");
+}
+
+
+.img-44{
+  grid-area:img-44;
+
+  background-image: url("images/Port-44.jpg");
+}
+
+.img-45{
+  grid-area:img-45;
+  background-image: url("images/Port-45.jpg");
+}
+
+.img-46{
+  grid-area:img-46;
+  background-image: url("images/Port-46.jpg");
+}
+
+.img-47{
+  grid-area:img-47;
+  background-image: url("images/Port-47.jpg");
+}
