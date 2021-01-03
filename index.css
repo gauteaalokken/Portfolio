@@ -32,8 +32,7 @@ h1{
 .social{
   position: absolute;
   right: 10.8rem;
-  top:22rem;
-  /* top: 10rem ; */
+
   font-size:30px;
 
 }
@@ -65,8 +64,14 @@ text-decoration: none; }
                        'img-4 img-13 img-3 img-3'
                        'img-14 img-15 img-7 img-6'
                        'img-10 img-10 img-16 img-17'
-                       'img-20 img-20 img-22 img-24'
-                       /* 'img-10 img-10 img-16 img-17' */
+                       'img-47 img-11 img-22 img-24'
+                       'img-46 img-32 img-32 img-28'
+                       'img-46 img-29 img-30 img-31'
+                       'img-43 img-44 img-45 img-42'
+                       'img-39 img-27 img-41 img-42'
+                       'img-39 img-26 img-33 img-34'
+                       'img-35 img-38 img-38 img-37'
+                       'img-35 img-38 img-38 img-37'
 
                        ;
 
@@ -189,10 +194,10 @@ text-decoration: none; }
   background-image: url("images/Port-15.jpg");
 }
 
-.img-20{
+/* .img-20{
   grid-area:img-20;
   background-image: url("images/Port-20.jpg");
-}
+} */
 
 .img-22{
   grid-area:img-22;
@@ -206,10 +211,11 @@ text-decoration: none; }
 
 
 
-.img-25{
+/* .img-25{
   grid-area:img-25;
   background-image: url("images/Port-25.jpg");
-}
+  min-height: 51.5rem;
+} */
 
 .img-26{
   grid-area:img-26;
@@ -219,6 +225,7 @@ text-decoration: none; }
 .img-27{
   grid-area:img-27;
   background-image: url("images/Port-27.jpg");
+   /* min-height: 51.5rem; */
 }
 
 
@@ -265,33 +272,41 @@ text-decoration: none; }
 .img-35{
   grid-area:img-35;
   background-image: url("images/Port-35.jpg");
+  min-height: 51.5rem;
 }
 
-.img-36{
+/* .img-36{
   grid-area:img-36;
   background-image: url("images/Port-36.jpg");
-}
+} */
 
 
 .img-37{
   grid-area:img-37;
 
   background-image: url("images/Port-37.jpg");
+  min-height: 51.5rem;
 }
 
 .img-38{
   grid-area:img-38;
   background-image: url("images/Port-38.jpg");
+  min-height: 51.5rem;
 }
 
 .img-39{
   grid-area:img-39;
   background-image: url("images/Port-39.jpg");
+  min-height: 51.5rem;
 }
-
+.img-41{
+  grid-area:img-41;
+  background-image: url("images/Port-41.jpg");
+}
 .img-42{
   grid-area:img-42;
   background-image: url("images/Port-42.jpg");
+  min-height: 51.5rem;
 }
 
 .img-43{
@@ -314,6 +329,7 @@ text-decoration: none; }
 .img-46{
   grid-area:img-46;
   background-image: url("images/Port-46.jpg");
+  min-height: 51.5rem;
 }
 
 .img-47{
