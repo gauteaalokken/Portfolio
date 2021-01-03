@@ -57,9 +57,6 @@ text-decoration: none; }
   grid-template-rows: auto;
   grid-gap: 1.5rem;
   grid-template-areas:
-                       /* 'img-11 img-11 img-11 img-11'
-                       'img-11 img-11 img-11 img-11' */
-
 
                        'img-4 img-13 img-3 img-3'
                        'img-14 img-15 img-7 img-6'
@@ -71,9 +68,7 @@ text-decoration: none; }
                        'img-39 img-27 img-41 img-42'
                        'img-39 img-26 img-33 img-34'
                        'img-35 img-38 img-38 img-37'
-                       'img-35 img-38 img-38 img-37'
-
-                       ;
+                       'img-35 img-38 img-38 img-37' ;
 
 
 }
@@ -184,15 +179,6 @@ text-decoration: none; }
   background-image: url("images/Port-17.jpg");
 }
 
-.img-14{
-  grid-area:img-14;
-  background-image: url("images/Port-14.jpg");
-}
-
-.img-15{
-  grid-area:img-15;
-  background-image: url("images/Port-15.jpg");
-}
 
 /* .img-20{
   grid-area:img-20;
